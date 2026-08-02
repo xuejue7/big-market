@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: untitled-app
+  profiles:
+    active: dev
