@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.xue</groupId>
-    <artifactId>untitled</artifactId>
+    <artifactId>big-market</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>untitled-api</module>
-        <module>untitled-app</module>
-        <module>untitled-domain</module>
-        <module>untitled-trigger</module>
-        <module>untitled-infrastructure</module>
-        <module>untitled-types</module>
+        <module>big-market-api</module>
+        <module>big-market-app</module>
+        <module>big-market-domain</module>
+        <module>big-market-trigger</module>
+        <module>big-market-infrastructure</module>
+        <module>big-market-types</module>
     </modules>
 
     <repositories>
@@ -126,27 +126,27 @@
             <!-- 工程模块 -->
             <dependency>
                 <groupId>org.xue</groupId>
-                <artifactId>untitled-api</artifactId>
+                <artifactId>big-market-api</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.xue</groupId>
-                <artifactId>untitled-domain</artifactId>
+                <artifactId>big-market-domain</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.xue</groupId>
-                <artifactId>untitled-infrastructure</artifactId>
+                <artifactId>big-market-infrastructure</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.xue</groupId>
-                <artifactId>untitled-types</artifactId>
+                <artifactId>big-market-types</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.xue</groupId>
-                <artifactId>untitled-trigger</artifactId>
+                <artifactId>big-market-trigger</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
@@ -188,21 +188,21 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <java_jvm>-Xms1G -Xmx1G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=test -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/untitled-boot -Xloggc:/export/Logs/untitled-boot/gc-untitled-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
+                <java_jvm>-Xms1G -Xmx1G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=test -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/big-market-boot -Xloggc:/export/Logs/big-market-boot/gc-big-market-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
                 <profileActive>dev</profileActive>
             </properties>
         </profile>
         <profile>
             <id>test</id>
             <properties>
-                <java_jvm>-Xms1G -Xmx1G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=test -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/untitled-boot -Xloggc:/export/Logs/untitled-boot/gc-untitled-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
+                <java_jvm>-Xms1G -Xmx1G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=test -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/big-market-boot -Xloggc:/export/Logs/big-market-boot/gc-big-market-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
                 <profileActive>test</profileActive>
             </properties>
         </profile>
         <profile>
             <id>prod</id>
             <properties>
-                <java_jvm>-Xms6G -Xmx6G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=release -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/fq-mall-activity-app -Xloggc:/export/Logs/untitled-boot/gc-untitled-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
+                <java_jvm>-Xms6G -Xmx6G -server  -XX:MaxPermSize=256M -Xss256K -Dspring.profiles.active=release -XX:+DisableExplicitGC -XX:+UseG1GC  -XX:LargePageSizeInBytes=128m -XX:+UseFastAccessorMethods -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/export/Logs/fq-mall-activity-app -Xloggc:/export/Logs/big-market-boot/gc-big-market-boot.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps</java_jvm>
                 <profileActive>prod</profileActive>
             </properties>
         </profile>
