@@ -1,0 +1,12 @@
+26-07-29.22:39:48.054 [main            ] INFO  Application            - Starting Application using Java 17.0.12 on DESKTOP-B04LNLN with PID 31112 (D:\idea_demo\untitled\untitled-app\target\classes started by xue in D:\idea_demo\untitled)
+26-07-29.22:39:48.058 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-07-29.22:39:49.450 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.xue]' package. Please check your configuration.
+26-07-29.22:39:50.376 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-07-29.22:39:50.397 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-07-29.22:39:50.398 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-07-29.22:39:50.399 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-07-29.22:39:50.641 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-07-29.22:39:50.642 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2477 ms
+26-07-29.22:39:53.199 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+26-07-29.22:39:53.243 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+26-07-29.22:39:53.262 [main            ] INFO  Application            - Started Application in 6.323 seconds (JVM running for 7.77)
