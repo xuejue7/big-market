@@ -1,0 +1,1 @@
+package org.xue.domain.xxx.service;

@@ -1,0 +1,32 @@
+26-08-04.22:58:48.359 [main            ] INFO  Application            - Starting Application using Java 17.0.12 on DESKTOP-B04LNLN with PID 5936 (D:\idea_demo\untitled\big-market-app\target\classes started by xue in D:\idea_demo\untitled)
+26-08-04.22:58:48.371 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-08-04.22:58:50.546 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.xue]' package. Please check your configuration.
+26-08-04.22:58:52.018 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+26-08-04.22:58:52.049 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-08-04.22:58:52.050 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-08-04.22:58:52.050 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+26-08-04.22:58:52.366 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-08-04.22:58:52.366 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3730 ms
+26-08-04.22:58:54.293 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+26-08-04.22:58:54.318 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8091 is already in use
+26-08-04.22:58:54.331 [main            ] INFO  Http11NioProtocol      - Pausing ProtocolHandler ["http-nio-8091"]
+26-08-04.22:58:54.331 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-08-04.22:58:54.367 [main            ] INFO  Http11NioProtocol      - Stopping ProtocolHandler ["http-nio-8091"]
+26-08-04.22:58:54.368 [main            ] INFO  Http11NioProtocol      - Destroying ProtocolHandler ["http-nio-8091"]
+26-08-04.22:58:54.385 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+26-08-04.22:58:54.584 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
