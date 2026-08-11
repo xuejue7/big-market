@@ -35,6 +35,14 @@ mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
   config-location: classpath:/mybatis/config/mybatis-config.xml
 
+# Redis 配置
+redis:
+  sdk:
+    config:
+      host: 127.0.0.1
+      port: 6379
+      password:
+
 # 日志
 logging:
   level:
