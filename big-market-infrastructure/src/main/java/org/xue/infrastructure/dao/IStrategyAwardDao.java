@@ -12,4 +12,5 @@ public interface IStrategyAwardDao {
 
     void insertList(List<StrategyAwardPO> list);
 
+    List<StrategyAwardPO> queryStrategyAwardListByStategyId(Long strtegyId);
 }
